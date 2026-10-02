@@ -1,0 +1,4 @@
+interface:
+  display_name: "dqrj-benchmark"
+  short_description: "用五重过滤法筛选值得模仿的商业对标，并拆解可复用的具体做法"
+  default_prompt: "使用 $dqrj-benchmark，筛选值得模仿的商业对标并拆解可复用做法。"
