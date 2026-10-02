@@ -32,7 +32,7 @@ bash install.sh
 ### 从源码安装（开发者）
 
 ```bash
-git clone https://github.com/你的用户名/仓库名.git
+git clone https://github.com/JIN12387154/-AI-.git
 cp -r skills/* ~/.claude/skills/
 ```
 
