@@ -78,7 +78,7 @@ def main() -> int:
     project_root = find_project_root(skill_dir)
     catalog = load_catalog(skill_dir, project_root)
 
-    search_roots = [skill_dir.parent]
+    search_roots = [skill_dir / "skills"]
     if project_root is not None:
         search_roots.insert(0, project_root / "skills")
     user_root = Path.home()
